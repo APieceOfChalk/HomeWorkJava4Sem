@@ -108,11 +108,7 @@ public class Main extends Application {
             rootLayout.setCenter(personOverview);
             PersonOverviewController PController = loader.getController();
             PController.setMainApp(this);
-            /*
-            PersonOverviewController PController = new PersonOverviewController();
-            PController.setPersonTableView( (TableView<Person>) getPersonData());
-            PController.initialize();
-            */
+
 
         } catch (IOException e){
             e.printStackTrace();
