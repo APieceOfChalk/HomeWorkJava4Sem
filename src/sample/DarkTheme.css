@@ -1,3 +1,58 @@
 .background {
-    -fx-background-color: #DCDCDC;
+    -fx-background-color: #222323;
+}
+
+.label {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Oswald";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 13pt;
+    -fx-font-family: "Oswald";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+
+
+.menu-bar {
+    -fx-background-color: #38393a;
+}
+
+.table-view {
+    -fx-base: #232526;
+    -fx-control-inner-background: #232526;
+    -fx-background-color: #232526;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Oswald";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.button {
+    -fx-border-color: gray;
+    -fx-padding: 5 22 5 22;
+    -fx-border-radius: 8px;
+    -fx-font-family: "Oswald";
+    -fx-font-size: 10pt;
+    -fx-text-fill: #d8d8d8;
+}
+
+
+.text-field {
+    -fx-background-color: gray;
 }
